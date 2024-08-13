@@ -1,28 +1,40 @@
+import { loadUserByPage } from "../use-cases/load-users-by-page";
+
 const state = {
     currentPage: 0,
     users: []
 }
 
-const loadNextPage = () => {
-    throw new console.error('Not implemented');
+const loadNextPage = async () => {
+    const users = await loadUserByPage(state.currentPage + 1)
+    if (users.length === 0) return;
+
+    state.currentPage += 1
+    state.users = users
 
 }
 
-const loadPreviousPage = () => {
-    throw new console.error('Not implemented');
+const loadPreviousPage = async () => {
+    if (state.currentPage === 1) return;
+    const users = await loadUserByPage(state.currentPage - 1)
+
+    if (users.length === 0) return;
+
+    state.currentPage -= 1
+    state.users = users
 }
 
 const onUserChange = () => {
-    throw new console.error('Not implemented');
+    throw new Error('Not implemented');
 }
 
 const reloadPage = () => {
-    throw new console.error('Not implemented');
+    throw new Error('Not implemented');
 }
 
 
 export default {
     loadNextPage, loadPreviousPage, onUserChange, reloadPage,
-    getUser: () => [...state.users],
+    getUsers: () => [...state.users],
     getCurrentPage: () => state.currentPage
 }
