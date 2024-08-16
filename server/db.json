@@ -7,7 +7,9 @@
       "avatar": "http://placehold.it/32x32",
       "first_name": "Ryan",
       "last_name": "Kent",
-      "gender": "male"
+      "gender": "male",
+      "firstName": "Ryan",
+      "lastName": "Kent"
     },
     {
       "id": 2,
@@ -37,31 +39,26 @@
       "gender": "male"
     },
     {
-      "id": 5,
-      "isActive": false,
-      "balance": 1455.08,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Mia",
-      "last_name": "Wade",
-      "gender": "female"
-    },
-    {
       "id": 6,
       "isActive": false,
       "balance": 2950.3,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Tyler",
       "last_name": "Rocha",
-      "gender": "male"
+      "gender": "male",
+      "firstName": "Tyler",
+      "lastName": "Rocha"
     },
     {
       "id": 7,
-      "isActive": false,
+      "isActive": true,
       "balance": 1985.59,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Harris",
       "last_name": "Francis",
-      "gender": "male"
+      "gender": "male",
+      "firstName": "Harris",
+      "lastName": "Francis"
     },
     {
       "id": 8,
@@ -74,39 +71,25 @@
     },
     {
       "id": 9,
-      "isActive": false,
+      "isActive": true,
       "balance": 3586.36,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Sheri",
       "last_name": "Cox",
-      "gender": "female"
+      "gender": "female",
+      "firstName": "Sheri",
+      "lastName": "Cox"
     },
     {
       "id": 10,
-      "isActive": false,
+      "isActive": true,
       "balance": 3653.26,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Sweeney",
       "last_name": "Mcintyre",
-      "gender": "male"
-    },
-    {
-      "id": 11,
-      "isActive": true,
-      "balance": 2533.26,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Fields",
-      "last_name": "Harrington",
-      "gender": "male"
-    },
-    {
-      "id": 12,
-      "isActive": false,
-      "balance": 1905.22,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Reeves",
-      "last_name": "Vasquez",
-      "gender": "male"
+      "gender": "male",
+      "firstName": "Sweeney",
+      "lastName": "Mcintyre"
     },
     {
       "id": 13,
@@ -386,97 +369,6 @@
       "first_name": "Felicia",
       "last_name": "Gamble",
       "gender": "female"
-    },
-    {
-      "id": 44,
-      "isActive": true,
-      "balance": 2504.33,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Roslyn",
-      "last_name": "Ford",
-      "gender": "female"
-    },
-    {
-      "id": 45,
-      "isActive": true,
-      "balance": 2419.25,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Burks",
-      "last_name": "Tate",
-      "gender": "male"
-    },
-    {
-      "id": 46,
-      "isActive": false,
-      "balance": 1642.73,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Marquez",
-      "last_name": "Baxter",
-      "gender": "male"
-    },
-    {
-      "id": 47,
-      "isActive": false,
-      "balance": 1322.5,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Spears",
-      "last_name": "Cunningham",
-      "gender": "male"
-    },
-    {
-      "id": 48,
-      "isActive": false,
-      "balance": 1938.58,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Rosemary",
-      "last_name": "Foreman",
-      "gender": "female"
-    },
-    {
-      "id": 49,
-      "isActive": true,
-      "balance": 2841.02,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Dianna",
-      "last_name": "Bowman",
-      "gender": "female"
-    },
-    {
-      "id": 50,
-      "isActive": true,
-      "balance": 1174.43,
-      "avatar": "http://placehold.it/32x32",
-      "first_name": "Mcbride",
-      "last_name": "Woodward",
-      "gender": "male"
-    },
-    {
-      "isActive": true,
-      "balance": 1400,
-      "first_name": "Esperanza",
-      "last_name": "Gualdron",
-      "id": 52
-    },
-    {
-      "isActive": true,
-      "balance": 132,
-      "first_name": "Esperanza",
-      "last_name": "Gualdron",
-      "id": 53
-    },
-    {
-      "isActive": true,
-      "balance": 132,
-      "first_name": "Esperanza",
-      "last_name": "Gualdron",
-      "id": 54
-    },
-    {
-      "isActive": true,
-      "balance": 132,
-      "first_name": "Esperanza",
-      "last_name": "Gualdron",
-      "id": 55
     }
   ]
 }
